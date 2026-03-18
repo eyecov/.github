@@ -1,19 +1,19 @@
-# Eyecov
+# EyeCov
 
 <img width="464" height="144" alt="eyecov-logo-w-margin" src="https://github.com/user-attachments/assets/921e5f2b-f367-4729-8157-e73f8d27b2e6" />
 
 **Coverage in your editor. Coverage for your AI tools.**
 
-Eyecov turns coverage artifacts like PHPUnit HTML and LCOV into a shared runtime model that works across:
+EyeCov turns coverage artifacts like PHPUnit HTML and LCOV into a shared runtime model that works across:
 
 - VS Code
 - Cursor
 - Antigravity
 - MCP-compatible AI tooling
 
-## What Eyecov does
+## What EyeCov does
 
-Eyecov makes test coverage usable where you actually work.
+EyeCov makes test coverage usable where you actually work.
 
 - Shows covered and uncovered lines directly in the editor
 - Keeps coverage aligned while files change
@@ -26,7 +26,7 @@ Eyecov makes test coverage usable where you actually work.
 
 ## Why this exists
 
-Most coverage tooling stops at generated reports. Eyecov pushes coverage into the editor and into AI workflows so coverage data stays available while writing, reviewing, and debugging code.
+Most coverage tooling stops at generated reports. EyeCov pushes coverage into the editor and into AI workflows so coverage data stays available while writing, reviewing, and debugging code.
 
 ## Getting started
 
