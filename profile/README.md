@@ -1,17 +1,39 @@
-# Covflux
+# Eyecov
 
-**Covflux is a unified, diff-aware code coverage system designed for codebases in motion.**
+<img width="464" height="144" alt="eyecov-logo-w-margin" src="https://github.com/user-attachments/assets/921e5f2b-f367-4729-8157-e73f8d27b2e6" />
 
-It ingests coverage data from multiple sources, stores it in a compact SQLite format, and exposes it to editors, CI pipelines, and AI tools.  
-Covflux tracks how coverage shifts as code evolves, making it easier to understand, visualize, and maintain test quality over time.
+**Coverage in your editor. Coverage for your AI tools.**
 
-This organization hosts the Covflux ecosystem:
+Eyecov turns coverage artifacts like PHPUnit HTML and LCOV into a shared runtime model that works across:
 
-- **covflux-core** – shared schema, data model, and utilities  
-- **covflux-php** – ingestors and tooling for PHP-based projects  
-- **covflux-vscode** – VS Code integration for real-time coverage visualization  
-- **covflux-mcp** – AI-facing coverage querying and analysis  
+- VS Code
+- Cursor
+- Antigravity
+- MCP-compatible AI tooling
 
-The project is in early development, and more components will appear here as the system takes shape.
+## What Eyecov does
 
-Stay tuned — coverage is about to get fluent.
+Eyecov makes test coverage usable where you actually work.
+
+- Shows covered and uncovered lines directly in the editor
+- Keeps coverage aligned while files change
+- Exposes coverage data through a built-in MCP server
+- Helps humans and AI tools answer where tests are missing first
+
+## Projects
+
+- [`eyecov-vscode`](https://github.com/eyecov/eyecov-vscode) - VS Code extension and built-in MCP server
+
+## Why this exists
+
+Most coverage tooling stops at generated reports. Eyecov pushes coverage into the editor and into AI workflows so coverage data stays available while writing, reviewing, and debugging code.
+
+## Getting started
+
+Start with [`eyecov-vscode`](https://github.com/eyecov/eyecov-vscode) for installation, configuration, and development docs.
+
+## Links
+
+- [`eyecov-vscode` README](https://github.com/eyecov/eyecov-vscode#readme)
+- [Coverage architecture](https://github.com/eyecov/eyecov-vscode/blob/main/docs/COVERAGE_ARCHITECTURE.md)
+- [MCP server docs](https://github.com/eyecov/eyecov-vscode/blob/main/docs/MCP_SERVER.md)
